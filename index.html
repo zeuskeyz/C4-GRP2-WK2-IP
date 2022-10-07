@@ -108,20 +108,18 @@
                 <div class="input-group mb-4">
                     <select class="form-select" id="genderChoice" aria-label="selectGender">
                         <option selected>Select Gender</option>
-                        <option value="M">Male</option>
-                        <option value="F">Female</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
                     </select>
                 </div>
 
-                <div class="card mt-4 text-center">
-                    <h5 class="card-header border-dark bg-danger" style=" color:white;">Results</h5>
-                    <div class="card-body bg-light">
-                      <h5 class="card-title"></h5>
-                      <p class="card-text ourResults"></p>
-                      <a href="#" class="btn btn-danger mt-5" onclick="onSubmit()">Your Akan Name</a>
-                    </div>
-                </div>
 
+                <div class="d-grid gap-2 col-6 mx-auto mb-5">
+                    <button type="button" class="btn btn-outline-danger" onclick="myAkanName();">Submit</button>
+                </div>
+                <div class="card text-center mb-1">
+                    <div class="card-body" id="feedBack" style="height: 20vh;"></div>
+                </div>
 
             </div>  
 
@@ -150,6 +148,6 @@
 
     </div>
 
-    <script src="example/js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
