@@ -21,7 +21,7 @@ function myAkanName() {
     var genderMale = maleNames[birthDay]; //uses the day of birth as index to access the femalesNames
 
     /*CAPTURE DATE INPUTS AND CHECKS IF ITS VALID*/
-    if (birthDay >= 0 && birthDay < 7 && birthMonth >= 0 && birthMonth < 12 && birthYear >= 1000) {
+    if (birthDateInput.length === 10 && birthDay >= 0 && birthDay < 7 && birthMonth >= 0 && birthMonth < 12 && birthYear >= 1000) {
         
         if (genderInput.value === "Male" || genderInput.value === "Female") {
 
