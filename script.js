@@ -1,4 +1,5 @@
 const submitButton = document.querySelector(".subMitter");
+const wiperButton = document.querySelector("#theWiper")
 
 function myAkanName() {
     /*OUR WORKING LISTS */
@@ -51,4 +52,9 @@ function myAkanName() {
 
 }
 
+function clearName(){
+    document.getElementById("feedBack").innerHTML = ""
+}
+
 submitButton.addEventListener("click", myAkanName);
+wiperButton.addEventListener("click", clearName);
