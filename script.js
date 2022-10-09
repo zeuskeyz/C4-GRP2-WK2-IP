@@ -28,7 +28,7 @@ function myAkanName() {
 
                 birthDateInput.value = '';
                 genderInput.value=genderInput[0].innerHTML;
-                textResult.innerHTML = 'Your Akan name is ' + maleNames[birthDay] + ' because you are a ' + genderInput.value + ' born on a ' + daysOfWeek[birthDay] + "!";
+                textResult.innerHTML = maleNames[birthDay] + ' because you are a ' + genderInput.value + ' born on a ' + daysOfWeek[birthDay] + "!";
                 
             }
 
@@ -36,7 +36,7 @@ function myAkanName() {
 
                 birthDateInput.value = '';
                 genderInput.value = genderInput[0].innerHTML;
-                textResult.innerHTML = 'Your Akan name is ' + femaleNames[birthDay] + ' because you are a ' + genderInput.value + ' born on a ' + daysOfWeek[birthDay] + "!";
+                textResult.innerHTML = femaleNames[birthDay] ;
             }
 
         }
