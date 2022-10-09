@@ -3,32 +3,56 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  background-image: url("images//ghanianSunset.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .first,
-.linkTag, .foot {
+.linkTag,
+.foot {
   color: white;
 }
+
 .mybrand {
   font-size: xx-large;
 }
 
 p {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
+
 h1 {
   font-family: "Kaushan Script", cursive;
 }
 
-.navitems {
-  color: white;
+.ourTopics,
+.subMitter,
+#theWiper {
+  font-family: 'Kanit', sans-serif;
 }
 
 .blockquote h6 {
   font-family: "Alkalami", serif;
 }
 
+.hechFive {
+  color: white;
+  border-radius: 8px;
+}
+
 .somethig {
   font-family: "Lora", serif;
   font-family: "Alkalami", serif;
   font-family: "Maven Pro", sans-serif;
+}
+
+.muteTexts {
+  font-family: "Lora", serif;
 }
