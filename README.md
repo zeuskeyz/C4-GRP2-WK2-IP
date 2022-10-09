@@ -14,6 +14,12 @@ This app is fairly easy to set and run and no scripts need to be run prior to it
 - Open the file on a modern code editor e.g VS Code
 - Run the HTML index file using a modern browser e.g Google Chrome, Mozilla Firefox or Microsoft Edge
 
+#### BDD ####
+- Enter birthday input through a form in format YYYY-MM-DD
+- Choose Gender through a dropdown button
+- Click the submit button to display Akan name
+- Click the Clear button to clear your Akan name
+
 #### Technologies used: ####
 - HyperText Markup Language (HTML)
 - Cascading Style Sheets (CSS)
