@@ -28,7 +28,7 @@ function myAkanName() {
 
                 birthDateInput.value = '';
                 genderInput.value=genderInput[0].innerHTML;
-                textResult.innerHTML = maleNames[birthDay] + ' because you are a ' + genderInput.value + ' born on a ' + daysOfWeek[birthDay] + "!";
+                textResult.innerHTML = maleNames[birthDay];
                 
             }
 
