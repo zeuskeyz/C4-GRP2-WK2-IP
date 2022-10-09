@@ -30,7 +30,7 @@ This app is fairly easy to set and run and no scripts need to be run prior to it
 - Visual Studio Code
 
 #### Live page ####
-https://github.com/zeuskeyz/C4-GRP2-WK2-IP.git
+https://zeuskeyz.github.io/C4-GRP2-WK2-IP/
 
 #### Contact information ####
 Reach me through any of the below for feedback or assistance.
