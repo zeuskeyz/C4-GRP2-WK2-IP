@@ -6,6 +6,7 @@ This project aims to build a web application that takes a user's birthday and ca
 
 #### Author(s) information ####
 ==================================
+
 Name: Silas Hazroun.
 Title: Software Engineer at Codeman
 
