@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Kaushan+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
 
 body {
   background-image: url("images//ghanianSunset.webp");
@@ -23,12 +22,12 @@ body {
   font-size: xx-large;
 }
 
-p {
+p{
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
 
-h1 {
+h1{
   font-family: "Kaushan Script", cursive;
 }
 
@@ -40,6 +39,7 @@ h1 {
 
 .blockquote h6 {
   font-family: "Alkalami", serif;
+  color: black;
 }
 
 .hechFive {
@@ -47,12 +47,13 @@ h1 {
   border-radius: 8px;
 }
 
-.somethig {
+.muteTexts{
   font-family: "Lora", serif;
-  font-family: "Alkalami", serif;
-  font-family: "Maven Pro", sans-serif;
 }
 
-.muteTexts {
-  font-family: "Lora", serif;
+#intro, h3{
+  font-family: 'Cinzel', serif;
+}
+#intro {
+  font-weight:900;
 }
